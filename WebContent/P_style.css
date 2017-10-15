@@ -2,21 +2,20 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 @font-face {
-font-family:'metropolis';
-src: url(Metropolis_1920.otf);
+	font-family: 'metropolis';
+	src: url(Metropolis_1920.otf);
 }
 
-
-.hreftext{
-  color: rgb(249, 215, 97);
+.hreftext {
+	color: rgb(249, 215, 97);
 }
 
-.left_main{
-	text-align:center;
+.left_main {
+	text-align: center;
 	min-height: 100%;
 }
 
-.right_main{
-	text-align:center;
+.right_main {
+	text-align: center;
 	min-height: 100%;
 }
