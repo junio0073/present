@@ -98,8 +98,6 @@ h4 {
 			return;
 		}
 		
-		
-		alert("야호!");
 		document.joinP.submit();
 		return;
 	}

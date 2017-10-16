@@ -60,6 +60,8 @@ function insertsprintchek(){
 		alert("기간의 시작일은 종료일 보다 빨라야 합니다.");
 		document.InsertSprint.StartYear.focus();
 	}
+	
+	document.InsertSprint.submit();
 }
 //-->
 </script>
@@ -81,7 +83,7 @@ function insertsprintchek(){
 %>
 
 <!-- left 스크린-->
-<div class="left_main" style="float: left; width: 79%">
+<div class="left_main" style="float: left; width: 75%">
 	<br>
 	<%
 		sprintDAO sprint = new sprintDAO();
@@ -127,7 +129,7 @@ function insertsprintchek(){
 		%>
 
 	</div>
-
+</div>
 	<div class="right_main" style="float: right; width: 19%">
 		<!-- 현 스프린트의 진행상황을 팝업으로 띄워줌 모달x-->
 		<button class="btn btn-warning" data-toggle="modal"

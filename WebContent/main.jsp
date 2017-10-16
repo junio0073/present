@@ -105,9 +105,9 @@ table.month_table th {
 				<li role="presentation" class="active"><a data-target="#main_m"
 					id="home-tab" role="tab" data-toggle="tab" aria-controls="main_m"
 					aria-expanded="true">월별</a></li>
-				<li role="presentation" class=""><a data-target="#main_d"
+	<!-- 			<li role="presentation" class=""><a data-target="#main_d"
 					role="tab" id="profile-tab" data-toggle="tab"
-					aria-controls="main_d" aria-expanded="false">일별</a></li>
+					aria-controls="main_d" aria-expanded="false">일별</a></li>-->
 				<li role="presentation" class=""><a data-target="#main_s"
 					role="tab" id="profile-tab" data-toggle="tab"
 					aria-controls="main_s" aria-expanded="false">기간별</a></li>
